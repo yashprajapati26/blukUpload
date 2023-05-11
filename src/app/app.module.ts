@@ -8,7 +8,6 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { UploadCsvComponent } from './components/upload-csv/upload-csv.component';
 import { WelcomePageComponent } from './components/welcome-page/welcome-page.component';
-import { Angular2CsvModule } from 'angular2-csv';
 const ngxUiLoaderConfig: NgxUiLoaderConfig = {
   bgsPosition: POSITION.bottomCenter,
   bgsSize: 40,
@@ -28,8 +27,6 @@ const ngxUiLoaderConfig: NgxUiLoaderConfig = {
     AppRoutingModule,
     HttpClientModule,
     NgxUiLoaderModule.forRoot(ngxUiLoaderConfig),
-    Angular2CsvModule,
-
   ],
   providers: [],
   bootstrap: [AppComponent]
