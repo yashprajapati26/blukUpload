@@ -1,9 +1,9 @@
 import { Component, HostListener } from '@angular/core';
-import { UploadCsvService } from './upload-csv.service';
 import { NgxUiLoaderService } from 'ngx-ui-loader';
-import { success } from 'src/app/interfaces/success.interface';
 import { errors } from 'src/app/interfaces/errors.interface';
+import { success } from 'src/app/interfaces/success.interface';
 import * as XLSX from "xlsx";
+import { UploadCsvService } from './upload-csv.service';
 
 @Component({
   selector: 'app-upload-csv',
